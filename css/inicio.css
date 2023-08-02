@@ -1,0 +1,350 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+
+    
+    @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto+Mono:ital,wght@1,600&display=swap');
+  
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: 
+          "logo informacion servicios"
+          "logo nosotros contactos";
+    }
+
+.logo{
+    grid-area: logo;
+    background-image: url(../img/foto\ 1.JPG);
+    background-size: cover;
+    background-position: center;
+    font-size: 60px;
+}
+.informacion{
+    grid-area: informacion;
+    background-image: url(../img/foto\ 3.JPG);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.servicios{
+    grid-area: servicios;
+    background-image: url(../img/fondonegro.jpeg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+.nosotros{
+    grid-area: nosotros;
+    background-image: url(../img/foto\ 4.JPG);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.contactos{
+    grid-area: contactos;
+    background-image: url(../img/foto\ 2.JPG);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+.container > div{
+    display: flex;
+    font-family: 'Fredericka the Great', cursive;
+font-family: 'Roboto Mono', monospace;
+
+}
+.container > div a{
+    text-decoration: none;
+    color: rgba(237, 231, 239, 0.68);
+
+}
+
+/*INFORMACION:*/ 
+.navbar2{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: rgb(196, 180, 210);
+    padding: 1rem;
+    flex-wrap: wrap;
+
+}
+.navbar2 li a{
+       color: black;
+       text-decoration: none;
+}
+.navbar2 li a:hover{
+    background-color: black;
+    color: rgb(206, 161, 248) ;
+    padding: 1rem;
+}
+
+body{
+background-image: url(../img/foto\ 1.JPG);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+p{
+    color: white;
+    font-size: 20px;
+    padding: 2rem;
+    background-color: black;
+    gap: 1rem;
+    
+    
+    
+}
+.fotora{
+    display: flex;
+    justify-content: center;
+    
+}
+.titulo_info{
+    font-size: 40px;
+    color: rgb(206, 161, 248);
+   
+}
+.foto-delestudio{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*servicios*/ 
+.body1{
+    background-image: url(../img/foto\ 4.JPG);
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+.navbar_3{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: rgb(227, 104, 16);
+    padding: 1rem;
+    flex-wrap: wrap;
+
+}
+.navbar_3 li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar_3 li a:hover{
+    background-color: black;
+    color: rgb(243, 239, 234);
+    padding: 1rem;
+}
+
+.tarjetas{
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+
+    
+    }
+
+.tarjeta{
+    background-color:  rgb(227, 104, 16);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+   
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.opcionales{
+    color: rgb(250, 247, 242);
+
+}
+.tarjetas{
+    margin: 4rem;
+}
+
+/*NOSOTROS*/
+
+.body_nos{
+    background-image: url(../img/foto\ 3.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar_4{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: rgb(5, 0, 9);
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+.navbar_4 li a{
+    text-decoration: none;
+    color: rgb(89, 7, 167);
+    
+}
+.navbar_4 li a:hover{
+    background-color:rgb(89, 7, 167) ;
+    color: black;
+    padding: 1rem;
+}
+.qsomos{
+    color: rgb(89, 7, 167);
+}
+.direccion h2{
+    color: rgb(89, 7, 167);
+    font-size: 30px;
+}
+.redes h3{
+    color:rgb(89, 7, 167) ;
+    font-size: 35px;
+}
+
+.logito{
+    width: 50px;
+}
+.logos_1 li a{
+  text-decoration: none;
+color: rgb(189, 182, 182);
+font-size: 20px;
+}
+.direccion p{
+    padding: 2rem;
+}
+
+/*CONTACTO*/ 
+
+.body_contacto{
+    background-image: url(../img/faroles.jpg);
+    background-size: cover;
+    
+}
+.menu_contacto{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: rgb(5, 0, 9);
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+.formulario_{
+    width: 400px;
+    background-color: grey;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+   
+}
+.formulario_ h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.controls{
+    background-color: rgb(249, 242, 242);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.menu_contacto li a{
+    text-decoration: none;
+    color: rgb(73, 71, 71);
+
+}
+.menu_contacto li a:hover{
+background-color: rgb(139, 136, 136);
+color: rgb(10, 9, 9);
+padding: 1rem;
+}
+.titulo_cntco h2{
+    color: black;
+}
+.h1cntco{
+    color: rgb(8, 9, 9);
+}
+.formulario_{
+    display: flex ;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 768px) {
+.container{
+    grid-template-columns:  1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "logo logo"
+    "informacion servicios"
+    "nosotros contactos"
+    
+    ;
+   
+}
+    
+}
+
+@media screen and (max-widht: 480px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
