@@ -1,0 +1,57 @@
+.body_contacto{
+    background-image: url(../img/faroles.jpg);
+    background-size: cover;
+    
+}
+.menu_contacto{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: rgb(5, 0, 9);
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+.formulario_{
+    width: 400px;
+    background-color: grey;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+   
+}
+.formulario_ h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.controls{
+    background-color: rgb(249, 242, 242);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.menu_contacto li a{
+    text-decoration: none;
+    color: rgb(73, 71, 71);
+
+}
+.menu_contacto li a:hover{
+background-color: rgb(139, 136, 136);
+color: rgb(10, 9, 9);
+padding: 1rem;
+}
+.titulo_cntco h2{
+    color: black;
+}
+.h1cntco{
+    color: rgb(8, 9, 9);
+}
+.formulario_{
+    display: flex ;
+    flex-direction: column;
+}
+.textito{
+    text-align: center;
+}

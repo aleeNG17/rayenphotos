@@ -1,0 +1,33 @@
+@mixin general {
+
+    @media screen and (max-width: 768) {
+    @content;.container{
+        grid-template-columns:  1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "logo logo"
+        "informacion servicios"
+        "nosotros contactos"
+        
+        ;
+       
+    }
+        
+    }
+
+}
+
+@mixin mobile {
+    @media screen and (max-widht: 480px) {
+
+        @content;.container{
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+    
+        }
+
+    }
+
+
+}

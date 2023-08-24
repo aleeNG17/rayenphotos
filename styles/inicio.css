@@ -129,7 +129,8 @@ p{
 
 
 /*servicios*/ 
-.body1{
+
+    .body1{
     background-image: url(../img/foto\ 4.JPG);
     
     background-size: cover;
@@ -191,8 +192,7 @@ h1{
 
 /*NOSOTROS*/
 
-.body_nos{
-    background-image: url(../img/foto\ 3.JPG);
+.body_nos{range: url(../img/foto\ 3.JPG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
